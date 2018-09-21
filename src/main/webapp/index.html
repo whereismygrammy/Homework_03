@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Tajtel</title>
+</head>
+<body>
+
+<h1>Wymiana walut</h1>
+<form action="/Servlet_01" method="post">
+    Ile pieniedzy chcesz wymienicy:<br>
+    <input type="number" name="cashDouble"> <br>
+
+    <p>Jaki przelicznik:<br></p>
+    <input type="radio" name="currency" value="eurUsd" checked>EUR → USD<br>
+    <input type="radio" name="currency" value="usdEur">USD → EUR<br>
+    <input type="radio" name="currency" value="eurPln">EUR → PLN<br>
+    <input type="radio" name="currency" value="plnEur">PLN → EUR<br>
+    <input type="radio" name="currency" value="usdPln">USD → PLN<br>
+    <input type="radio" name="currency" value="plnUsd">PLN → USD<br>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+
+</body>
+</html>
